@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #7E5B3C;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+}
+
+kbd{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 5vw;
+    height: 20vh;
+    background-color: white;
+    text-align: center;
+    padding: 15vh 0 0 0;
+}
