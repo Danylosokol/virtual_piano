@@ -1,5 +1,6 @@
 document.addEventListener("keydown", function(event){
     if(event.code === "KeyA"){
+        let audio = new Audio("");
         console.log("The 'A' key is pressed")
     }
     else if(event.code === "KeyS"){
