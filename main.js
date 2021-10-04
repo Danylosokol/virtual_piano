@@ -53,6 +53,41 @@ document.addEventListener("keydown", function(event){
             console.log("The 'J' key is pressed");
         }
     }
+    else if(event.code === "KeyW"){
+        let audio = new Audio("black_keys/W.mp3");
+        let result = audio.play();
+        if(result === undefined){
+            console.log("The 'W' key is pressed");
+        }
+    }
+    else if(event.code === "KeyE"){
+        let audio = new Audio("black_keys/E.mp3");
+        let result = audio.play();
+        if(result === undefined){
+            console.log("The 'E' key is pressed");
+        }
+    }
+    else if(event.code === "KeyT"){
+        let audio = new Audio("black_keys/T.mp3");
+        let result = audio.play();
+        if(result === undefined){
+            console.log("The 'T' key is pressed");
+        }
+    }
+    else if(event.code === "KeyY"){
+        let audio = new Audio("black_keys/Y.mp3");
+        let result = audio.play();
+        if(result === undefined){
+            console.log("The 'Y' key is pressed");
+        }
+    }
+    else if(event.code === "KeyU"){
+        let audio = new Audio("black_keys/U.mp3");
+        let result = audio.play();
+        if(result === undefined){
+            console.log("The 'U' key is pressed");
+        }
+    }
     else{
         console.log("Unbound key was pressed");
     }
